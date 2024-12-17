@@ -35,14 +35,46 @@ Floats: Fractional part ex:) 9.86, 0, 2.05
 
 Schemas(Blueprints of a database): Shows a database's design, such as what tables are.
   - Reader know what data type each field can hold.
-  - [schemas pic]
 
 Database Storage: Stored on the hard disk of a server. 
   - Servers are centralized computers that perform services via requests made over a network.
   - They can be a computer or any centralized system.
 
 
+-- Drawing insights from SQL
+What is SQL useful for?
+Answers questions such as 
+  - Which products ahd the highest sales last week?
+  - Which products get the worst review scores from customers?
+  - How did website traffic change when a feature was introduced?
 
+Keywords: reserved words for operations -- Common keywords: SELECT, FROM
+Ex: -- SELECT name FROM patrons;
+    -- SELECT card_num, name FROM patrons;
+
+Aliasing: rename columns
+Ex: -- SELECT name AS first_name, year_hired FROM employees;
+
+Distinct Records:
+Ex: -- SELECT DISTINCT year_hired FROM employees;
+
+Multiples:
+ : -- SELECT DISTINCT dept_id, year_hired FROM employees;
+
+Views: Virtual table that is the result of a saved SQL SELECT statement
+  - When accessed, views automatically update in response to updates in the underlying data
+
+Ex: CREATE VIEW employee_hire_years AS SELECT id, name, year_hired FROM employees;
+   Then, you can use to create, SELECT id, name FROM employee_hire_years
+
+SQL flavors:
+Two popular:
+PostgreSQL
+ -- Free and open source Relaiton Database 
+ -- Refers to both the postgre sql databasee system
+SQL server
+ -- By Microsoft
+ -- T-SQL is Microsoft's SQL
 
 
 
