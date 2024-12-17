@@ -1,2 +1,2 @@
 # SQL-Learning Records
- Detailed study records from beginner to advanced SQL Concepts
+ Detailed study records to advanced SQL Concepts
