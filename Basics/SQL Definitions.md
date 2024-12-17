@@ -8,9 +8,12 @@ Tables: Database is organized into tables, which hold related data about a parti
 *Fields are limited to those set when the database was created, but the number of rows is unlimited.
 
 Table parts: 
-- Records: a row that holds data on an individual observation [records.pic]
-- Fields: Holds one piece of information about all records. [field.pic]
-- Keys: Unique Identifiers - unique value which identifies a record -- often a number. [keys.pic]
+- Records: a row that holds data on an individual observation
+![](https://github.com/Jeon-DataLab/SQL-Learning-Records/blob/main/Basics/Records.png)
+- Fields: Holds one piece of information about all records.
+![](https://github.com/Jeon-DataLab/SQL-Learning-Records/blob/main/Basics/fields.png)
+- Keys: Unique Identifiers - unique value which identifies a record -- often a number.
+![](https://github.com/Jeon-DataLab/SQL-Learning-Records/blob/main/Basics/Keys.png)
 
 SQL Data Types:
 - Number, text, date
@@ -18,7 +21,7 @@ SQL Data Types:
 Use of data types: 
 1. Different types data stored differently and take up different amounts of storage space.
 2. Some operations only apply to certain data types.
-[data types1 pic]
+![](https://github.com/Jeon-DataLab/SQL-Learning-Records/blob/main/Basics/data%20types%201.png)
 
 Strings: a sequence of characters such as letters or punctuation
   - Some string data types can only hold short strings, such as a string up to 250 characters.
