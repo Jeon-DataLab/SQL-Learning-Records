@@ -9,11 +9,11 @@ Tables: Database is organized into tables, which hold related data about a parti
 
 Table parts: 
 - Records: a row that holds data on an individual observation
-![](https://github.com/Jeon-DataLab/SQL-Learning-Records/blob/main/Basics/Records.png)
+![](https://github.com/Jeon-DataLab/SQL-Learning-Records/blob/main/Basics/Source_Photo/Records.png)
 - Fields: Holds one piece of information about all records.
-![](https://github.com/Jeon-DataLab/SQL-Learning-Records/blob/main/Basics/fields.png)
+![]([https://github.com/Jeon-DataLab/SQL-Learning-Records/blob/main/Basics/fields.png](https://github.com/Jeon-DataLab/SQL-Learning-Records/blob/main/Basics/Source_Photo/fields.png))
 - Keys: Unique Identifiers - unique value which identifies a record -- often a number.
-![](https://github.com/Jeon-DataLab/SQL-Learning-Records/blob/main/Basics/Keys.png)
+![]([https://github.com/Jeon-DataLab/SQL-Learning-Records/blob/main/Basics/Keys.png](https://github.com/Jeon-DataLab/SQL-Learning-Records/blob/main/Basics/Source_Photo/Keys.png))
 
 SQL Data Types:
 - Number, text, date
@@ -21,7 +21,7 @@ SQL Data Types:
 Use of data types: 
 1. Different types data stored differently and take up different amounts of storage space.
 2. Some operations only apply to certain data types.
-![](https://github.com/Jeon-DataLab/SQL-Learning-Records/blob/main/Basics/data%20types%201.png)
+![]([https://github.com/Jeon-DataLab/SQL-Learning-Records/blob/main/Basics/data%20types%201.png](https://github.com/Jeon-DataLab/SQL-Learning-Records/blob/main/Basics/Source_Photo/data%20types%201.png))
 
 Strings: a sequence of characters such as letters or punctuation
   - Some string data types can only hold short strings, such as a string up to 250 characters.
