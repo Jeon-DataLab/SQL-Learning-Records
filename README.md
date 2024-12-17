@@ -1,2 +1,2 @@
 # SQL-Learning Records
-Marketing SQL Studies to Advanced Concepts.
+Marking SQL Studies to Advanced Concepts.
