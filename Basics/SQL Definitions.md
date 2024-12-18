@@ -76,7 +76,52 @@ SQL server
  -- By Microsoft
  -- T-SQL is Microsoft's SQL
 
+COUNT(): Counts the number of records with a value in a field
+Ex: SELECT COUNT(birthdate) AS count_birthdates FROM people;
+multiple fields:
+SELECT COUNT(name) AS count_names, COUNT(birthdate) AS count_birthdates FROM people;
+
+- COUNT(field_name) counts values in a field
+- COUNT(*) counts records in a table
+- * represents all fields
+
+SELECT COUNT(*) AS total_records FROM people;
+DISTINCT - removes duplicates to return only unique values
+SELECT COUNT (DISTINCT birthdate) AS count_brithdates FROM people;
+
+Order of execution
+1. FROM people 2. SELECT name 3. LIMIT 10;
+
+**Style guides --  For SQL Style guide, follow sqlstyle.guide/
+Ex: 
+(Photo)
+
+Non-standard Fields: Semicolumns
+(Photo)
+
+Filtering Numbers
+WHERE - 
+with comparison operators
+Ex: 
+SELECT title
+FROM films
+WHERE release_year > 1960; or <, <=, =, <>(not equal to)
+
+Order of execution -- FROM, WHERE, SELECT, LIMIT
+
+Multiple Criteria: Or, and, between
+Or operator - Satisfy one condition
+Ex: 
+SELECT title FROM films WHERE release_year = 1994 OR release year = 2000;
+
+AND operator - satisfy all criteria
+Ex:
+SELECT title FROM films WHERE release_year = 1994 AND release year = 2000;
+BETWEEN, AND
+
+Ex:
+SELECT title FROM films WHERE release_year BETWEEN 1994 AND 2000;
 
 
 
-   
+
