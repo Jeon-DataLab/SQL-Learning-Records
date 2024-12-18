@@ -119,6 +119,13 @@ Or operator - Satisfy one condition
 Ex: 
 SELECT title FROM films WHERE release_year = 1994 OR release year = 2000;
 
+Ex:
+SELECT title, release_year
+FROM films
+WHERE (release_year BETWEEN 1994 AND 2000)
+AND (language = 'English' OR language = 'Spanish')
+AND gross > 2000000;
+
 AND operator - satisfy all criteria
 Ex:
 SELECT title FROM films WHERE release_year = 1994 AND release year = 2000;
