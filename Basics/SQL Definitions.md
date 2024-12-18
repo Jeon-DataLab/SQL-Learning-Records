@@ -99,10 +99,10 @@ Order of execution
 
 **Style guides --  For SQL Style guide, follow sqlstyle.guide/
 Ex: 
-(Photo)
+![](https://github.com/Jeon-DataLab/SQL-Learning-Records/blob/main/Basics/Source_Photo/Wildcard%20Position.png)
 
 Non-standard Fields: Semicolumns
-(Photo)
+![](https://github.com/Jeon-DataLab/SQL-Learning-Records/blob/main/Basics/Source_Photo/Non%20Standard%20Fields.png)
 
 Filtering Numbers
 WHERE - 
@@ -127,6 +127,27 @@ BETWEEN, AND
 Ex:
 SELECT title FROM films WHERE release_year BETWEEN 1994 AND 2000;
 
+Filtering text
+- Filter a pattern rather than specific text - LIKE, NOT LIKE, IN
 
+LIKE
+% match zero, one or many characters / _ match a single character
+Ex: SELECT name FROM people WHERE name LIKE 'Ade%';
+
+Wildcard position 
+![](https://github.com/Jeon-DataLab/SQL-Learning-Records/blob/main/Basics/Source_Photo/Wildcard%20Position.png)
+
+NOT LIKE
+SELECT name FROM people
+
+Wildcard position
+SELECT, IN
+![](https://github.com/Jeon-DataLab/SQL-Learning-Records/blob/main/Basics/Source_Photo/WHERE%20IN.png)
+
+WHERE, OR
+![](https://github.com/Jeon-DataLab/SQL-Learning-Records/blob/main/Basics/Source_Photo/WHERE%20OR.png)
+
+WHERE, IN
+![](https://github.com/Jeon-DataLab/SQL-Learning-Records/blob/main/Basics/Source_Photo/WHERE%20IN.png)
 
 
