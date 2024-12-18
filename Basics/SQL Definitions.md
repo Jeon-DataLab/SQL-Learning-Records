@@ -140,10 +140,6 @@ Wildcard position
 NOT LIKE
 SELECT name FROM people
 
-Wildcard position
-SELECT, IN
-![](https://github.com/Jeon-DataLab/SQL-Learning-Records/blob/main/Basics/Source_Photo/WHERE%20IN.png)
-
 WHERE, OR
 ![](https://github.com/Jeon-DataLab/SQL-Learning-Records/blob/main/Basics/Source_Photo/WHERE%20OR.png)
 
