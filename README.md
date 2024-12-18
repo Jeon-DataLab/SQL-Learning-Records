@@ -1,2 +1,2 @@
 # SQL-Learning Records
-Marking SQL Studies to Advanced Concepts.
+SQL Fundamental Archive. Source - Intermediate SQL course from Data Camp.
