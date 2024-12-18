@@ -33,6 +33,11 @@ Integers: store whole numbers
 Floats: Fractional part ex:) 9.86, 0, 2.05
   - NUMERIC is a flexible and popular float data type
 
+Filtering text
+  - LIKE: Used to search for a pattern in a field.
+    - % match zero, one, or many characters, _ match a single character
+  - NOT LIKE
+
 Schemas(Blueprints of a database): Shows a database's design, such as what tables are.
   - Reader know what data type each field can hold.
 
