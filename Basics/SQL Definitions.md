@@ -99,7 +99,7 @@ Order of execution
 
 **Style guides --  For SQL Style guide, follow sqlstyle.guide/
 Ex: 
-![](https://github.com/Jeon-DataLab/SQL-Learning-Records/blob/main/Basics/Source_Photo/Wildcard%20Position.png)
+![](https://github.com/Jeon-DataLab/SQL-Learning-Records/blob/main/Basics/Source_Photo/Style%20Guide.png)
 
 Non-standard Fields: Semicolumns
 ![](https://github.com/Jeon-DataLab/SQL-Learning-Records/blob/main/Basics/Source_Photo/Non%20Standard%20Fields.png)
