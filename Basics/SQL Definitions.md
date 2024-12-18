@@ -101,6 +101,7 @@ Order of execution
 Ex: 
 ![](https://github.com/Jeon-DataLab/SQL-Learning-Records/blob/main/Basics/Source_Photo/Style%20Guide.png)
 
+
 Non-standard Fields: Semicolumns
 ![](https://github.com/Jeon-DataLab/SQL-Learning-Records/blob/main/Basics/Source_Photo/Non%20Standard%20Fields.png)
 
@@ -141,14 +142,18 @@ LIKE
 % match zero, one or many characters / _ match a single character
 Ex: SELECT name FROM people WHERE name LIKE 'Ade%';
 
+
 Wildcard position 
 ![](https://github.com/Jeon-DataLab/SQL-Learning-Records/blob/main/Basics/Source_Photo/Wildcard%20Position.png)
+
 
 NOT LIKE
 SELECT name FROM people
 
+
 WHERE, OR
 ![](https://github.com/Jeon-DataLab/SQL-Learning-Records/blob/main/Basics/Source_Photo/WHERE%20OR.png)
+
 
 WHERE, IN
 ![](https://github.com/Jeon-DataLab/SQL-Learning-Records/blob/main/Basics/Source_Photo/WHERE%20IN.png)
