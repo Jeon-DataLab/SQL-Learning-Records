@@ -21,7 +21,7 @@ SQL Data Types:
 Use of data types: 
 1. Different types data stored differently and take up different amounts of storage space.
 2. Some operations only apply to certain data types.
-![](https://github.com/Jeon-DataLab/SQL-Learning-Records/blob/main/Basics/Source_Photo/data%20types%201.png)
+![](https://github.com/Jeon-DataLab/SQL-Learning-Records/blob/main/SQL%20Concept%20Fundamentals/Source_Photos/data%20types%201.png)
 
 Strings: a sequence of characters such as letters or punctuation
   - Some string data types can only hold short strings, such as a string up to 250 characters.
@@ -99,11 +99,11 @@ Order of execution
 
 **Style guides --  For SQL Style guide, follow sqlstyle.guide/
 Ex: 
-![](https://github.com/Jeon-DataLab/SQL-Learning-Records/blob/main/Basics/Source_Photo/Style%20Guide.png)
+![](https://github.com/Jeon-DataLab/SQL-Learning-Records/blob/main/SQL%20Concept%20Fundamentals/Source_Photos/Style%20Guide.png)
 
 
 Non-standard Fields: Semicolumns
-![](https://github.com/Jeon-DataLab/SQL-Learning-Records/blob/main/Basics/Source_Photo/Non%20Standard%20Fields.png)
+![](https://github.com/Jeon-DataLab/SQL-Learning-Records/blob/main/SQL%20Concept%20Fundamentals/Source_Photos/Non%20Standard%20Fields.png)
 
 Filtering Numbers
 WHERE - 
@@ -144,7 +144,7 @@ Ex: SELECT name FROM people WHERE name LIKE 'Ade%';
 
 
 Wildcard position 
-![](https://github.com/Jeon-DataLab/SQL-Learning-Records/blob/main/Basics/Source_Photo/Wildcard%20Position.png)
+![](https://github.com/Jeon-DataLab/SQL-Learning-Records/blob/main/SQL%20Concept%20Fundamentals/Source_Photos/Wildcard%20Position.png)
 
 
 NOT LIKE
@@ -152,11 +152,11 @@ SELECT name FROM people
 
 
 WHERE, OR
-![](https://github.com/Jeon-DataLab/SQL-Learning-Records/blob/main/Basics/Source_Photo/WHERE%20OR.png)
+![](https://github.com/Jeon-DataLab/SQL-Learning-Records/blob/main/SQL%20Concept%20Fundamentals/Source_Photos/WHERE%20OR.png)
 
 
 WHERE, IN
-![](https://github.com/Jeon-DataLab/SQL-Learning-Records/blob/main/Basics/Source_Photo/WHERE%20IN.png)
+![](https://github.com/Jeon-DataLab/SQL-Learning-Records/blob/main/SQL%20Concept%20Fundamentals/Source_Photos/WHERE%20IN.png)
 
 
 Missing Values
