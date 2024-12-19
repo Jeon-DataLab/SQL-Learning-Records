@@ -159,3 +159,29 @@ WHERE, IN
 ![](https://github.com/Jeon-DataLab/SQL-Learning-Records/blob/main/Basics/Source_Photo/WHERE%20IN.png)
 
 
+Missing Values
+COUNT(field_name) includes only non-missing values
+COUNT(*) includes missing values
+** Careful on using * as the data may contain many null values.
+
+IS NULL: Checks to see if there is a null value.
+SELECT name
+FROM people
+WHERE birthdate IS NulL;
+
+IS NOT NULL: Checks to see no null values.
+SELECT COUNT (*) AS no_birthdates
+FROM people
+WHERE birthdate IS NOT NULL;
+
+Summarizing Data --
+Aggregate Functions: avg, sum, min, max, count
+
+Select ___(budget)
+FROM films;
+
+Non numerical data
+Numerical Fields only: Avg, sum
+Various Data Types: Count, min, max
+
+(Non-numerical photo)
