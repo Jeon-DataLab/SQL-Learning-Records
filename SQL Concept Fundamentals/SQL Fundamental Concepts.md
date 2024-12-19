@@ -9,11 +9,11 @@ Tables: Database is organized into tables, which hold related data about a parti
 
 Table parts: 
 - Records: a row that holds data on an individual observation
-![](https://github.com/Jeon-DataLab/SQL-Learning-Records/blob/main/Basics/Source_Photo/Records.png)
+![](https://github.com/Jeon-DataLab/SQL-Learning-Records/blob/main/SQL%20Concept%20Fundamentals/Source_Photos/Records.png)
 - Fields: Holds one piece of information about all records.
-![](https://github.com/Jeon-DataLab/SQL-Learning-Records/blob/main/Basics/Source_Photo/fields.png)
+![](https://github.com/Jeon-DataLab/SQL-Learning-Records/blob/main/SQL%20Concept%20Fundamentals/Source_Photos/fields.png)
 - Keys: Unique Identifiers - unique value which identifies a record -- often a number.
-![](https://github.com/Jeon-DataLab/SQL-Learning-Records/blob/main/Basics/Source_Photo/Keys.png)
+![](https://github.com/Jeon-DataLab/SQL-Learning-Records/blob/main/SQL%20Concept%20Fundamentals/Source_Photos/Keys.png)
 
 SQL Data Types:
 - Number, text, date
