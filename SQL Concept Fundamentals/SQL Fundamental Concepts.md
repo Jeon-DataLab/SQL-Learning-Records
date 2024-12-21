@@ -174,6 +174,9 @@ SELECT COUNT (*) AS no_birthdates
 FROM people
 WHERE birthdate IS NOT NULL;
 
+This is same as 
+SELECT COUNT(___) AS count_certification FROM files;
+
 Summarizing Data --
 Aggregate Functions: avg, sum, min, max, count
 
@@ -184,4 +187,19 @@ Non numerical data
 Numerical Fields only: Avg, sum
 Various Data Types: Count, min, max
 
+Important to Alias
 (Non-numerical photo)
+
+WHERE with aggregate functions
+Ex:
+SELECT AVG(budget) AS avg_budget
+FROM films
+Where release_year >= 2010;
+
+Round(): Round(number_to_round, decimal_places)
+SELECT ROUND(AVG(budget),2) AS avg_budget
+FROM films
+WHERE release_year >= 2010;
+
+**You can round to whole number using 0, and also to negative -5 for instance, to get to the left value 5 position.
+
