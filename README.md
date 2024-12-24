@@ -1,2 +1,2 @@
 # SQL-Learning Records
-SQL Fundamental Archive. Source - Intermediate SQL course from Data Camp.
+SQL Fundamental Archive. Source - SQL course from Data Camp.
