@@ -203,3 +203,16 @@ WHERE release_year >= 2010;
 
 **You can round to whole number using 0, and also to negative -5 for instance, to get to the left value 5 position.
 
+Aliasing and arithmetic
++,-,*,/
+Ex: SELECT (1+1);
+
+Diff. between Aggregate functions vs. arithmetic
+Aggregate functions : Vertically
+Arithmetic : Horizontally
+
+SELECT (gross - budget) AS profit FROM films;
+SELECT MAX(budget) AS max_budget, MAX(duration) AS max_duration FROM films;
+
+Order of execution
+FROM - WHERE - SELECT - LIMIT
