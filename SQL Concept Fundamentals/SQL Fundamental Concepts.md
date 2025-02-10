@@ -216,3 +216,74 @@ SELECT MAX(budget) AS max_budget, MAX(duration) AS max_duration FROM films;
 
 Order of execution
 FROM - WHERE - SELECT - LIMIT
+
+ORDER BY
+SELECT title, budget 
+FROM films 
+ORDER BY budget;
+
+SELECT title, budget 
+FROM films
+ORDER BY title;
+
+ASCending
+SELECT title, budget
+FROM films
+ORDER BY budget ASC;
+
+DESCending
+SELECT title, budget
+FROM films
+ORDER BY budget DESC;
+
+SELECT title, budget
+FROM films
+WHERE budget IS NOT NULL
+ORDER BY budget DESC;
+
+Sorting fields
+SELECT title
+FROM films
+ORDER BY release_year
+
+SELECT title, release_year
+FROM films
+ORDER BY release_year
+
+ORDER BY multiple fields
+- ORDER BY field_one, field_two 
+
+Order of execution
+- FROM - WHERE - SELECT - ORDER BY - LIMIT
+
+Grouping data
+GROUP BY single fields
+SELECT certification, COUNT(title) AS title_count
+FROM films
+GROUP BY certification;
+
+SELECT certification, COUNT(title) AS count_title
+FROM films
+GROUP BY certification;
+
+GROUP BY multiple fields
+SELECT certification, language, COUNT(title) AS title_count
+FROM films
+GROUP BY certification, language;
+
+GROUP BY with ORDER BY
+SELECT
+  certification,
+  COUNT(title) AS title_count
+FROM films
+GROUP BY certification;
+
+SELECT
+  certification,
+  COUNT(title) AS title_count
+FROM films
+GROUP BY certification
+ORDER BY title_count DESC;
+
+Order of execution
+FROM - SELECT - GROUP BY - ORDER BY
