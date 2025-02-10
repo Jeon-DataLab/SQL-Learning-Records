@@ -287,3 +287,23 @@ ORDER BY title_count DESC;
 
 Order of execution
 FROM - SELECT - GROUP BY - ORDER BY
+
+
+HAVING
+Aggregate functions cannot go with where clause due to the order of execution however, having allows you to filter by where.
+
+FROM WHERE GROUP BY HAVING SELECT ORDER BY LIMIT
+
+HAVING vs WHERE
+- WHERE filters individual records, HAVING filters grouped records.
+- What films were released in the year 2000?
+
+SELECT title
+FROM films
+WHERE release_year = 2000;
+
+In what years was the average film duration over two hours?
+SELECT release_year
+FROM films
+GROUP BY release_year
+HAVING AVG(duration) > 120;
