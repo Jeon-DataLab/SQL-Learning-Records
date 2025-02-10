@@ -307,3 +307,32 @@ SELECT release_year
 FROM films
 GROUP BY release_year
 HAVING AVG(duration) > 120;
+
+****JOINS****
+Ins and outs of INNER JOINS
+Inner Join looks for records in both tables which match on a given field
+
+At the presidents table
+SELECT * FROM presidents;
+
+First Inner JOIN
+SELECT prime_ministers.country, prime_ministers.continent, prime_minister, president
+FROM presidents
+INNER JOIN prime_ministers
+ON presidents.country = prime_ministers.country;
+
+Note. The table.column_name format must be used when selecting columns that exist in both tables to avoid a SQL error.
+
+Aliasing tables
+SELECT p2.country, p2.continent, prime_minister, president
+FROM presidents AS p1
+INNER JOIN prime_ministers AS p2
+ON p1.country = p2.country;
+
+
+SELECT p2.country, p2.continent, prime_minister, president
+FROM presidnets AS p1
+INNER JOIN prime_ministers AS p2
+USING(country);
+
+
